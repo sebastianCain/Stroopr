@@ -12,5 +12,9 @@
 
 #ifdef __OBJC__
 	#import <UIKit/UIKit.h>
+	#import <CoreData/CoreData.h>
+	#import <AudioToolbox/AudioToolbox.h>
+	#import <GameKit/GameKit.h>
+	#import <StoreKit/StoreKit.h>
 	#import <Foundation/Foundation.h>
 #endif

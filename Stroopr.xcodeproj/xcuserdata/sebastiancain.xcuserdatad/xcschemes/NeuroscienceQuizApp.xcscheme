@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-               BuildableName = "NeuroscienceQuizApp.app"
-               BlueprintName = "NeuroscienceQuizApp"
-               ReferencedContainer = "container:NeuroscienceQuizApp.xcodeproj">
+               BuildableName = "InConGru.app"
+               BlueprintName = "Stroopr"
+               ReferencedContainer = "container:Stroopr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AB92E0E1931067D00A3D96C"
-               BuildableName = "NeuroscienceQuizAppTests.xctest"
-               BlueprintName = "NeuroscienceQuizAppTests"
-               ReferencedContainer = "container:NeuroscienceQuizApp.xcodeproj">
+               BuildableName = "InConGruTests.xctest"
+               BlueprintName = "StrooprTests"
+               ReferencedContainer = "container:Stroopr.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-            BuildableName = "NeuroscienceQuizApp.app"
-            BlueprintName = "NeuroscienceQuizApp"
-            ReferencedContainer = "container:NeuroscienceQuizApp.xcodeproj">
+            BuildableName = "InConGru.app"
+            BlueprintName = "Stroopr"
+            ReferencedContainer = "container:Stroopr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-            BuildableName = "NeuroscienceQuizApp.app"
-            BlueprintName = "NeuroscienceQuizApp"
-            ReferencedContainer = "container:NeuroscienceQuizApp.xcodeproj">
+            BuildableName = "InConGru.app"
+            BlueprintName = "Stroopr"
+            ReferencedContainer = "container:Stroopr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-            BuildableName = "NeuroscienceQuizApp.app"
-            BlueprintName = "NeuroscienceQuizApp"
-            ReferencedContainer = "container:NeuroscienceQuizApp.xcodeproj">
+            BuildableName = "InConGru.app"
+            BlueprintName = "Stroopr"
+            ReferencedContainer = "container:Stroopr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

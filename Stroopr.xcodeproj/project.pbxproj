@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0A5886193175DE003437E5 /* Volume-High-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A5885193175DE003437E5 /* Volume-High-128.png */; };
+		0A0A58881931761F003437E5 /* Volume-Low-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A58871931761F003437E5 /* Volume-Low-128.png */; };
+		0A0A588D19317F4D003437E5 /* Quiz2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A588C19317F4D003437E5 /* Quiz2ViewController.m */; };
+		0A0A5891193180CC003437E5 /* Score2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A5890193180CC003437E5 /* Score2ViewController.m */; };
+		0A2B72D51931BFF60072B957 /* Quiz3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B72D41931BFF60072B957 /* Quiz3ViewController.m */; };
+		0A2B72D81931C00B0072B957 /* Score3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B72D71931C00B0072B957 /* Score3ViewController.m */; };
+		0A2B72DB1931C0730072B957 /* HowToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B72DA1931C0730072B957 /* HowToViewController.m */; };
+		0A4D41B61931DB52007F2390 /* beep-05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D41B51931DB52007F2390 /* beep-05.mp3 */; };
+		0A4D41B81931E1C4007F2390 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D41B71931E1C4007F2390 /* AudioToolbox.framework */; };
+		0A4D41BA1931E5AE007F2390 /* beep-07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D41B91931E5AE007F2390 /* beep-07.mp3 */; };
+		0A5587CE1931375B00E9F71F /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587CD1931375B00E9F71F /* Ubuntu-Light.ttf */; };
+		0A5587CF1931375B00E9F71F /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587CD1931375B00E9F71F /* Ubuntu-Light.ttf */; };
+		0A5587D1193140DD00E9F71F /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587D0193140DD00E9F71F /* home.png */; };
+		0A5587D2193140DD00E9F71F /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587D0193140DD00E9F71F /* home.png */; };
+		0A5587D4193143E900E9F71F /* Arrowhead-Right-01-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587D3193143E900E9F71F /* Arrowhead-Right-01-128.png */; };
+		0A5587D5193143E900E9F71F /* Arrowhead-Right-01-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587D3193143E900E9F71F /* Arrowhead-Right-01-128.png */; };
+		0A5587D8193147B900E9F71F /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5587D7193147B900E9F71F /* ScoreViewController.m */; };
+		0A5587D9193147B900E9F71F /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5587D7193147B900E9F71F /* ScoreViewController.m */; };
+		0A5587DE1931613700E9F71F /* Arrowhead-Left-01-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587DD1931613700E9F71F /* Arrowhead-Left-01-128 (1).png */; };
+		0A5587DF1931613700E9F71F /* Arrowhead-Left-01-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5587DD1931613700E9F71F /* Arrowhead-Left-01-128 (1).png */; };
+		0A5587E21931740000E9F71F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5587E11931740000E9F71F /* SettingsViewController.m */; };
+		0A5587E31931740000E9F71F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5587E11931740000E9F71F /* SettingsViewController.m */; };
+		0A807A3E1932C80A00DCF242 /* ChooseStageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A807A3D1932C80A00DCF242 /* ChooseStageViewController.m */; };
+		0A807A421932CCE300DCF242 /* Data-Split-01-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A411932CCE300DCF242 /* Data-Split-01-128.png */; };
+		0A807A461932D04600DCF242 /* Full-Screen-Expand-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A451932D04600DCF242 /* Full-Screen-Expand-128 (1).png */; };
+		0A807A481932D08A00DCF242 /* Arrow-Expand-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A471932D08A00DCF242 /* Arrow-Expand-128 (1).png */; };
+		0A807A511934273800DCF242 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A807A501934273800DCF242 /* StoreKit.framework */; };
+		0A807A5319343AA700DCF242 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A807A5219343AA700DCF242 /* GameKit.framework */; };
+		0A807A5519343C9700DCF242 /* StroopedLogo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A5419343C9700DCF242 /* StroopedLogo (1).png */; };
+		0A807A981935107D00DCF242 /* Previous-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A971935107D00DCF242 /* Previous-128.png */; };
+		0A807A9A1935108E00DCF242 /* Navigation-Right-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A991935108E00DCF242 /* Navigation-Right-128.png */; };
+		0A807ADD19353C7D00DCF242 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A807ADC19353C7D00DCF242 /* CoreData.framework */; };
+		0AB92DF21931067D00A3D96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF11931067D00A3D96C /* Foundation.framework */; };
+		0AB92DF41931067D00A3D96C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF31931067D00A3D96C /* CoreGraphics.framework */; };
+		0AB92DF61931067D00A3D96C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF51931067D00A3D96C /* UIKit.framework */; };
+		0AB92DFC1931067D00A3D96C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92DFA1931067D00A3D96C /* InfoPlist.strings */; };
+		0AB92DFE1931067D00A3D96C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92DFD1931067D00A3D96C /* main.m */; };
+		0AB92E021931067D00A3D96C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92E011931067D00A3D96C /* AppDelegate.m */; };
+		0AB92E051931067D00A3D96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E031931067D00A3D96C /* Main.storyboard */; };
+		0AB92E0A1931067D00A3D96C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E091931067D00A3D96C /* Images.xcassets */; };
+		0AB92E111931067D00A3D96C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92E101931067D00A3D96C /* XCTest.framework */; };
+		0AB92E121931067D00A3D96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF11931067D00A3D96C /* Foundation.framework */; };
+		0AB92E131931067D00A3D96C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF51931067D00A3D96C /* UIKit.framework */; };
+		0AB92E1B1931067D00A3D96C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E191931067D00A3D96C /* InfoPlist.strings */; };
+		0AB92E1D1931067D00A3D96C /* NeuroscienceQuizAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92E1C1931067D00A3D96C /* NeuroscienceQuizAppTests.m */; };
+		0AB92E281931077D00A3D96C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92E271931077D00A3D96C /* HomeViewController.m */; };
+		0AB92E2A193108A800A3D96C /* params.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E29193108A800A3D96C /* params.png */; };
+		0AB92E2D19310A9400A3D96C /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92E2C19310A9400A3D96C /* QuizViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB92E141931067D00A3D96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB92DE61931067D00A3D96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB92DED1931067D00A3D96C;
+			remoteInfo = NeuroscienceQuizApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0A5885193175DE003437E5 /* Volume-High-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Volume-High-128.png"; sourceTree = "<group>"; };
+		0A0A58871931761F003437E5 /* Volume-Low-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Volume-Low-128.png"; sourceTree = "<group>"; };
+		0A0A588B19317F4D003437E5 /* Quiz2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz2ViewController.h; sourceTree = "<group>"; };
+		0A0A588C19317F4D003437E5 /* Quiz2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz2ViewController.m; sourceTree = "<group>"; };
+		0A0A588F193180CC003437E5 /* Score2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score2ViewController.h; sourceTree = "<group>"; };
+		0A0A5890193180CC003437E5 /* Score2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score2ViewController.m; sourceTree = "<group>"; };
+		0A2B72D31931BFF60072B957 /* Quiz3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz3ViewController.h; sourceTree = "<group>"; };
+		0A2B72D41931BFF60072B957 /* Quiz3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz3ViewController.m; sourceTree = "<group>"; };
+		0A2B72D61931C00B0072B957 /* Score3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score3ViewController.h; sourceTree = "<group>"; };
+		0A2B72D71931C00B0072B957 /* Score3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score3ViewController.m; sourceTree = "<group>"; };
+		0A2B72D91931C0730072B957 /* HowToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToViewController.h; sourceTree = "<group>"; };
+		0A2B72DA1931C0730072B957 /* HowToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToViewController.m; sourceTree = "<group>"; };
+		0A4D41B51931DB52007F2390 /* beep-05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-05.mp3"; sourceTree = "<group>"; };
+		0A4D41B71931E1C4007F2390 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A4D41B91931E5AE007F2390 /* beep-07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "beep-07.mp3"; path = "../../../../Downloads/beep-07.mp3"; sourceTree = "<group>"; };
+		0A5587CD1931375B00E9F71F /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		0A5587D0193140DD00E9F71F /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		0A5587D3193143E900E9F71F /* Arrowhead-Right-01-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrowhead-Right-01-128.png"; sourceTree = "<group>"; };
+		0A5587D6193147B900E9F71F /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		0A5587D7193147B900E9F71F /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		0A5587DD1931613700E9F71F /* Arrowhead-Left-01-128 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrowhead-Left-01-128 (1).png"; sourceTree = "<group>"; };
+		0A5587E01931740000E9F71F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0A5587E11931740000E9F71F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0A807A3C1932C80A00DCF242 /* ChooseStageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseStageViewController.h; sourceTree = "<group>"; };
+		0A807A3D1932C80A00DCF242 /* ChooseStageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseStageViewController.m; sourceTree = "<group>"; };
+		0A807A411932CCE300DCF242 /* Data-Split-01-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Data-Split-01-128.png"; path = "../../../../Downloads/Data-Split-01-128.png"; sourceTree = "<group>"; };
+		0A807A451932D04600DCF242 /* Full-Screen-Expand-128 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Full-Screen-Expand-128 (1).png"; path = "../../../../Downloads/Full-Screen-Expand-128 (1).png"; sourceTree = "<group>"; };
+		0A807A471932D08A00DCF242 /* Arrow-Expand-128 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arrow-Expand-128 (1).png"; path = "../../../../Downloads/Arrow-Expand-128 (1).png"; sourceTree = "<group>"; };
+		0A807A4D1934270B00DCF242 /* Stroopr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Stroopr.entitlements; sourceTree = "<group>"; };
+		0A807A501934273800DCF242 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0A807A5219343AA700DCF242 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		0A807A5419343C9700DCF242 /* StroopedLogo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StroopedLogo (1).png"; path = "../../../StroopedLogo (1).png"; sourceTree = "<group>"; };
+		0A807A971935107D00DCF242 /* Previous-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Previous-128.png"; sourceTree = "<group>"; };
+		0A807A991935108E00DCF242 /* Navigation-Right-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Navigation-Right-128.png"; sourceTree = "<group>"; };
+		0A807ADC19353C7D00DCF242 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0AB92DEE1931067D00A3D96C /* Stroopr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroopr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB92DF11931067D00A3D96C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AB92DF31931067D00A3D96C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB92DF51931067D00A3D96C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AB92DF91931067D00A3D96C /* Stroopr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stroopr-Info.plist"; sourceTree = "<group>"; };
+		0AB92DFB1931067D00A3D96C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB92DFD1931067D00A3D96C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB92DFF1931067D00A3D96C /* Stroopr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stroopr-Prefix.pch"; sourceTree = "<group>"; };
+		0AB92E001931067D00A3D96C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AB92E011931067D00A3D96C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AB92E041931067D00A3D96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AB92E091931067D00A3D96C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AB92E0F1931067D00A3D96C /* StrooprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrooprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB92E101931067D00A3D96C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0AB92E181931067D00A3D96C /* StrooprTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrooprTests-Info.plist"; sourceTree = "<group>"; };
+		0AB92E1A1931067D00A3D96C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB92E1C1931067D00A3D96C /* NeuroscienceQuizAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuroscienceQuizAppTests.m; sourceTree = "<group>"; };
+		0AB92E261931077D00A3D96C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0AB92E271931077D00A3D96C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0AB92E29193108A800A3D96C /* params.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = params.png; sourceTree = "<group>"; };
+		0AB92E2B19310A9400A3D96C /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		0AB92E2C19310A9400A3D96C /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB92DEB1931067D00A3D96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A807ADD19353C7D00DCF242 /* CoreData.framework in Frameworks */,
+				0A4D41B81931E1C4007F2390 /* AudioToolbox.framework in Frameworks */,
+				0AB92DF41931067D00A3D96C /* CoreGraphics.framework in Frameworks */,
+				0A807A511934273800DCF242 /* StoreKit.framework in Frameworks */,
+				0A807A5319343AA700DCF242 /* GameKit.framework in Frameworks */,
+				0AB92DF61931067D00A3D96C /* UIKit.framework in Frameworks */,
+				0AB92DF21931067D00A3D96C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB92E0C1931067D00A3D96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB92E111931067D00A3D96C /* XCTest.framework in Frameworks */,
+				0AB92E131931067D00A3D96C /* UIKit.framework in Frameworks */,
+				0AB92E121931067D00A3D96C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0A588E19317F7E003437E5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D41B51931DB52007F2390 /* beep-05.mp3 */,
+				0A4D41B91931E5AE007F2390 /* beep-07.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		0A807A371932A4B200DCF242 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		0AB92DE51931067D00A3D96C = {
+			isa = PBXGroup;
+			children = (
+				0A807A4D1934270B00DCF242 /* Stroopr.entitlements */,
+				0A807A371932A4B200DCF242 /* iPad */,
+				0AB92DF71931067D00A3D96C /* NeuroscienceQuizApp */,
+				0AB92E161931067D00A3D96C /* NeuroscienceQuizAppTests */,
+				0AB92DF01931067D00A3D96C /* Frameworks */,
+				0AB92DEF1931067D00A3D96C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB92DEF1931067D00A3D96C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB92DEE1931067D00A3D96C /* Stroopr.app */,
+				0AB92E0F1931067D00A3D96C /* StrooprTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB92DF01931067D00A3D96C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A807ADC19353C7D00DCF242 /* CoreData.framework */,
+				0A807A5219343AA700DCF242 /* GameKit.framework */,
+				0A807A501934273800DCF242 /* StoreKit.framework */,
+				0A4D41B71931E1C4007F2390 /* AudioToolbox.framework */,
+				0AB92DF11931067D00A3D96C /* Foundation.framework */,
+				0AB92DF31931067D00A3D96C /* CoreGraphics.framework */,
+				0AB92DF51931067D00A3D96C /* UIKit.framework */,
+				0AB92E101931067D00A3D96C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB92DF71931067D00A3D96C /* NeuroscienceQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A0A588E19317F7E003437E5 /* Sounds */,
+				0AB92E001931067D00A3D96C /* AppDelegate.h */,
+				0AB92E011931067D00A3D96C /* AppDelegate.m */,
+				0AB92E29193108A800A3D96C /* params.png */,
+				0A5587D0193140DD00E9F71F /* home.png */,
+				0A5587D3193143E900E9F71F /* Arrowhead-Right-01-128.png */,
+				0A5587DD1931613700E9F71F /* Arrowhead-Left-01-128 (1).png */,
+				0A0A5885193175DE003437E5 /* Volume-High-128.png */,
+				0A0A58871931761F003437E5 /* Volume-Low-128.png */,
+				0A5587CD1931375B00E9F71F /* Ubuntu-Light.ttf */,
+				0A807A411932CCE300DCF242 /* Data-Split-01-128.png */,
+				0A807A451932D04600DCF242 /* Full-Screen-Expand-128 (1).png */,
+				0A807A5419343C9700DCF242 /* StroopedLogo (1).png */,
+				0A807A471932D08A00DCF242 /* Arrow-Expand-128 (1).png */,
+				0A807A971935107D00DCF242 /* Previous-128.png */,
+				0A807A991935108E00DCF242 /* Navigation-Right-128.png */,
+				0AB92E031931067D00A3D96C /* Main.storyboard */,
+				0AB92E261931077D00A3D96C /* HomeViewController.h */,
+				0AB92E271931077D00A3D96C /* HomeViewController.m */,
+				0A807A3C1932C80A00DCF242 /* ChooseStageViewController.h */,
+				0A807A3D1932C80A00DCF242 /* ChooseStageViewController.m */,
+				0AB92E2B19310A9400A3D96C /* QuizViewController.h */,
+				0AB92E2C19310A9400A3D96C /* QuizViewController.m */,
+				0A5587D6193147B900E9F71F /* ScoreViewController.h */,
+				0A5587D7193147B900E9F71F /* ScoreViewController.m */,
+				0A0A588B19317F4D003437E5 /* Quiz2ViewController.h */,
+				0A0A588C19317F4D003437E5 /* Quiz2ViewController.m */,
+				0A0A588F193180CC003437E5 /* Score2ViewController.h */,
+				0A0A5890193180CC003437E5 /* Score2ViewController.m */,
+				0A2B72D31931BFF60072B957 /* Quiz3ViewController.h */,
+				0A2B72D41931BFF60072B957 /* Quiz3ViewController.m */,
+				0A2B72D61931C00B0072B957 /* Score3ViewController.h */,
+				0A2B72D71931C00B0072B957 /* Score3ViewController.m */,
+				0A5587E01931740000E9F71F /* SettingsViewController.h */,
+				0A5587E11931740000E9F71F /* SettingsViewController.m */,
+				0A2B72D91931C0730072B957 /* HowToViewController.h */,
+				0A2B72DA1931C0730072B957 /* HowToViewController.m */,
+				0AB92E091931067D00A3D96C /* Images.xcassets */,
+				0AB92DF81931067D00A3D96C /* Supporting Files */,
+			);
+			path = NeuroscienceQuizApp;
+			sourceTree = "<group>";
+		};
+		0AB92DF81931067D00A3D96C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB92DF91931067D00A3D96C /* Stroopr-Info.plist */,
+				0AB92DFA1931067D00A3D96C /* InfoPlist.strings */,
+				0AB92DFD1931067D00A3D96C /* main.m */,
+				0AB92DFF1931067D00A3D96C /* Stroopr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB92E161931067D00A3D96C /* NeuroscienceQuizAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB92E1C1931067D00A3D96C /* NeuroscienceQuizAppTests.m */,
+				0AB92E171931067D00A3D96C /* Supporting Files */,
+			);
+			path = NeuroscienceQuizAppTests;
+			sourceTree = "<group>";
+		};
+		0AB92E171931067D00A3D96C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB92E181931067D00A3D96C /* StrooprTests-Info.plist */,
+				0AB92E191931067D00A3D96C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB92DED1931067D00A3D96C /* Stroopr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB92E201931067D00A3D96C /* Build configuration list for PBXNativeTarget "Stroopr" */;
+			buildPhases = (
+				0AB92DEA1931067D00A3D96C /* Sources */,
+				0AB92DEB1931067D00A3D96C /* Frameworks */,
+				0AB92DEC1931067D00A3D96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroopr;
+			productName = NeuroscienceQuizApp;
+			productReference = 0AB92DEE1931067D00A3D96C /* Stroopr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB92E0E1931067D00A3D96C /* StrooprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB92E231931067D00A3D96C /* Build configuration list for PBXNativeTarget "StrooprTests" */;
+			buildPhases = (
+				0AB92E0B1931067D00A3D96C /* Sources */,
+				0AB92E0C1931067D00A3D96C /* Frameworks */,
+				0AB92E0D1931067D00A3D96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB92E151931067D00A3D96C /* PBXTargetDependency */,
+			);
+			name = StrooprTests;
+			productName = NeuroscienceQuizAppTests;
+			productReference = 0AB92E0F1931067D00A3D96C /* StrooprTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB92DE61931067D00A3D96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "ASX Software, Inc.";
+				TargetAttributes = {
+					0AB92DED1931067D00A3D96C = {
+						DevelopmentTeam = LDDTDLNHHL;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Passbook = {
+								enabled = 0;
+							};
+						};
+					};
+					0AB92E0E1931067D00A3D96C = {
+						TestTargetID = 0AB92DED1931067D00A3D96C;
+					};
+				};
+			};
+			buildConfigurationList = 0AB92DE91931067D00A3D96C /* Build configuration list for PBXProject "Stroopr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB92DE51931067D00A3D96C;
+			productRefGroup = 0AB92DEF1931067D00A3D96C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB92DED1931067D00A3D96C /* Stroopr */,
+				0AB92E0E1931067D00A3D96C /* StrooprTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB92DEC1931067D00A3D96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5587D4193143E900E9F71F /* Arrowhead-Right-01-128.png in Resources */,
+				0A807A421932CCE300DCF242 /* Data-Split-01-128.png in Resources */,
+				0A807A461932D04600DCF242 /* Full-Screen-Expand-128 (1).png in Resources */,
+				0AB92E0A1931067D00A3D96C /* Images.xcassets in Resources */,
+				0AB92E2A193108A800A3D96C /* params.png in Resources */,
+				0A5587DE1931613700E9F71F /* Arrowhead-Left-01-128 (1).png in Resources */,
+				0A0A58881931761F003437E5 /* Volume-Low-128.png in Resources */,
+				0A4D41BA1931E5AE007F2390 /* beep-07.mp3 in Resources */,
+				0A0A5886193175DE003437E5 /* Volume-High-128.png in Resources */,
+				0A5587CE1931375B00E9F71F /* Ubuntu-Light.ttf in Resources */,
+				0A807A9A1935108E00DCF242 /* Navigation-Right-128.png in Resources */,
+				0A807A981935107D00DCF242 /* Previous-128.png in Resources */,
+				0AB92DFC1931067D00A3D96C /* InfoPlist.strings in Resources */,
+				0A5587D1193140DD00E9F71F /* home.png in Resources */,
+				0A807A5519343C9700DCF242 /* StroopedLogo (1).png in Resources */,
+				0A4D41B61931DB52007F2390 /* beep-05.mp3 in Resources */,
+				0A807A481932D08A00DCF242 /* Arrow-Expand-128 (1).png in Resources */,
+				0AB92E051931067D00A3D96C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB92E0D1931067D00A3D96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5587CF1931375B00E9F71F /* Ubuntu-Light.ttf in Resources */,
+				0AB92E1B1931067D00A3D96C /* InfoPlist.strings in Resources */,
+				0A5587D2193140DD00E9F71F /* home.png in Resources */,
+				0A5587D5193143E900E9F71F /* Arrowhead-Right-01-128.png in Resources */,
+				0A5587DF1931613700E9F71F /* Arrowhead-Left-01-128 (1).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB92DEA1931067D00A3D96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5587D8193147B900E9F71F /* ScoreViewController.m in Sources */,
+				0AB92E021931067D00A3D96C /* AppDelegate.m in Sources */,
+				0A0A588D19317F4D003437E5 /* Quiz2ViewController.m in Sources */,
+				0AB92DFE1931067D00A3D96C /* main.m in Sources */,
+				0A2B72DB1931C0730072B957 /* HowToViewController.m in Sources */,
+				0A5587E21931740000E9F71F /* SettingsViewController.m in Sources */,
+				0AB92E281931077D00A3D96C /* HomeViewController.m in Sources */,
+				0A2B72D51931BFF60072B957 /* Quiz3ViewController.m in Sources */,
+				0A0A5891193180CC003437E5 /* Score2ViewController.m in Sources */,
+				0AB92E2D19310A9400A3D96C /* QuizViewController.m in Sources */,
+				0A807A3E1932C80A00DCF242 /* ChooseStageViewController.m in Sources */,
+				0A2B72D81931C00B0072B957 /* Score3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB92E0B1931067D00A3D96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5587E31931740000E9F71F /* SettingsViewController.m in Sources */,
+				0AB92E1D1931067D00A3D96C /* NeuroscienceQuizAppTests.m in Sources */,
+				0A5587D9193147B900E9F71F /* ScoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB92E151931067D00A3D96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB92DED1931067D00A3D96C /* Stroopr */;
+			targetProxy = 0AB92E141931067D00A3D96C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AB92DFA1931067D00A3D96C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB92DFB1931067D00A3D96C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AB92E031931067D00A3D96C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB92E041931067D00A3D96C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AB92E191931067D00A3D96C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB92E1A1931067D00A3D96C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB92E1E1931067D00A3D96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AB92E1F1931067D00A3D96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB92E211931067D00A3D96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeuroscienceQuizApp/Stroopr-Prefix.pch";
+				INFOPLIST_FILE = "NeuroscienceQuizApp/Stroopr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Stroopr;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AB92E221931067D00A3D96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeuroscienceQuizApp/Stroopr-Prefix.pch";
+				INFOPLIST_FILE = "NeuroscienceQuizApp/Stroopr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Stroopr;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0AB92E241931067D00A3D96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NeuroscienceQuizApp.app/NeuroscienceQuizApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeuroscienceQuizApp/NeuroscienceQuizApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NeuroscienceQuizAppTests/StrooprTests-Info.plist";
+				PRODUCT_NAME = StrooprTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0AB92E251931067D00A3D96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NeuroscienceQuizApp.app/NeuroscienceQuizApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeuroscienceQuizApp/NeuroscienceQuizApp-Prefix.pch";
+				INFOPLIST_FILE = "NeuroscienceQuizAppTests/StrooprTests-Info.plist";
+				PRODUCT_NAME = StrooprTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB92DE91931067D00A3D96C /* Build configuration list for PBXProject "Stroopr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB92E1E1931067D00A3D96C /* Debug */,
+				0AB92E1F1931067D00A3D96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB92E201931067D00A3D96C /* Build configuration list for PBXNativeTarget "Stroopr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB92E211931067D00A3D96C /* Debug */,
+				0AB92E221931067D00A3D96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB92E231931067D00A3D96C /* Build configuration list for PBXNativeTarget "StrooprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB92E241931067D00A3D96C /* Debug */,
+				0AB92E251931067D00A3D96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB92DE61931067D00A3D96C /* Project object */;
+}
