@@ -19,7 +19,7 @@
 
 @implementation Quiz2ViewController
 
-@synthesize questionImage1, questionImage2, answerButton1,answerButton2, scoreDisplay, nextArrow, secondsDisplay, setVolumeCopy2,correctValue2, score, highScore;
+@synthesize questionImage1, questionImage2, answerButton1,answerButton2, scoreDisplay, nextArrow, secondsDisplay, correctValue2, score;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -113,7 +113,7 @@ NSString* createQuestion7(UIImageView*x){
 
 - (IBAction)answerButton1pressed:(id)sender {
 	if ([createQuestion4(questionImage1) isEqualToString:@"right"] && [createQuestion7(answerButton1.imageView) isEqualToString: @"in"])  {
-		if(setVolumeCopy2 == 1){
+		if(sound){
 			AudioServicesPlaySystemSound(PlaySoundID1);
 		}
 		score +=1;
@@ -121,47 +121,45 @@ NSString* createQuestion7(UIImageView*x){
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 		
 	}else if ([createQuestion4(questionImage1) isEqualToString:@"left"] && [createQuestion7(answerButton1.imageView) isEqualToString: @"out"])  {
-		if(setVolumeCopy2 == 1){
+		if(sound){
 			AudioServicesPlaySystemSound(PlaySoundID1);
 		}
 		score +=1;
 		createQuestion2(questionImage1, questionImage2 , answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else{
-		if(setVolumeCopy2 == 1){
+		if(sound){
 			AudioServicesPlaySystemSound(PlaySoundID2);
 		}
 		score -=1;
 		createQuestion2(questionImage1, questionImage2 , answerButton1, answerButton2);
 		scoreDisplay.text =[NSString stringWithFormat:@"%d", score];
 	}
-	
 }
 
 - (IBAction)answerButton2pressed:(id)sender {
 	if ([createQuestion4(questionImage1) isEqualToString:@"left" ] && [createQuestion7(answerButton1.imageView) isEqualToString: @"in"]) {
-		if(setVolumeCopy2 == 1){
+		if(sound){
 			AudioServicesPlaySystemSound(PlaySoundID1);
 		}
 		score +=1;
 		createQuestion2(questionImage1, questionImage2 , answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else if ([createQuestion4(questionImage1) isEqualToString:@"right" ] && [createQuestion7(answerButton1.imageView) isEqualToString: @"out"]) {
-		if(setVolumeCopy2 == 1){
+		if(sound){
 			AudioServicesPlaySystemSound(PlaySoundID1);
 		}
 		score +=1;
 		createQuestion2(questionImage1, questionImage2 , answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else{
-		if(setVolumeCopy2 == 1){
+		if(sound){
 			AudioServicesPlaySystemSound(PlaySoundID2);
 		}
 		score -=1;
 		createQuestion2(questionImage1, questionImage2 , answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}
-	
 }
 
 - (void) timerFireMethod:(NSTimer *) timer30
@@ -188,10 +186,7 @@ NSString* createQuestion7(UIImageView*x){
 	if ([segue.identifier isEqualToString:@"won2"]) {
 		Score2ViewController *svc = [segue destinationViewController];
 		svc.scoreCopy = score;
-		svc.setVolumeCopy3 = setVolumeCopy2;
-	}else if ([segue.identifier isEqualToString:@"gig2"]) {
-		HomeViewController *hvc = [segue destinationViewController];
-		hvc.setVolumeCopy1 = setVolumeCopy2;
 	}
 }
+
 @end;

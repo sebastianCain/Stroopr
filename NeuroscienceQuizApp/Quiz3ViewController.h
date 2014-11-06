@@ -12,6 +12,8 @@
 @interface Quiz3ViewController : UIViewController{
 	SystemSoundID PlaySoundID1;
 	SystemSoundID PlaySoundID2;
+	NSUserDefaults *defaults;
+	NSUserDefaults *sound;
 }
 @property (strong, nonatomic) IBOutlet UIButton *answerButton1;
 @property (strong, nonatomic) IBOutlet UIButton *answerButton2;
@@ -24,6 +26,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *questionLabel;
 @property (strong, nonatomic) NSString *correctValue2;
 @property (nonatomic) int score;
-@property (nonatomic) int highScore;
-@property (nonatomic) int setVolumeCopy2;
+
 @end

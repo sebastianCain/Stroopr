@@ -8,7 +8,8 @@
 
 #import "HomeViewController.h"
 #import "ChooseStageViewController.h"
-
+#import "SettingsViewController.h"
+#import "HowToViewController.h"
 
 @interface HomeViewController ()
 
@@ -16,7 +17,7 @@
 
 @implementation HomeViewController
 
-@synthesize titleLabel, setVolumeCopy1, highscore1, highscore2, highscore3, howToPlayLabel;
+@synthesize titleLabel, howToPlayLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -40,17 +41,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-/*-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-	if ([segue.identifier isEqualToString:@"homeToChoose"]) {
-		ChooseStageViewController *csvc = [segue destinationViewController];
-		csvc.setVolumeCopyc = setVolumeCopy1;
-		csvc.highscore1 = highscore1;
-		csvc.highscore2 = highscore2;
-		csvc.highscore3 = highscore3;
-	}
-}*/
-
 
 @end

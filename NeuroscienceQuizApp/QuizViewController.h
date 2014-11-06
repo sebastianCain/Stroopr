@@ -23,6 +23,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *secondsDisplay;
 @property (strong, nonatomic) NSString *correctValue2;
 @property (nonatomic) int score;
-@property (nonatomic) int setVolumeCopy2;
 
 @end

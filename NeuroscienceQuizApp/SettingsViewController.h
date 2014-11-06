@@ -10,9 +10,7 @@
 
 @interface SettingsViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *settingsLabel;
-@property (strong, nonatomic) IBOutlet UISwitch *volumeSwitch;
 @property (strong, nonatomic) IBOutlet UITextView *aboutTextView;
-@property (nonatomic) int setVolume;
 @property (strong, nonatomic) IBOutlet UILabel *aboutLabel;
 
 @end

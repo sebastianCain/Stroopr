@@ -20,7 +20,7 @@
 
 @implementation QuizViewController
 
-@synthesize questionLabel, answerButton1,answerButton2, scoreDisplay, nextArrow, secondsDisplay, score, setVolumeCopy2;
+@synthesize questionLabel, answerButton1,answerButton2, scoreDisplay, nextArrow, secondsDisplay, score;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -58,7 +58,6 @@
 	
 	NSURL *SoundURL2 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"beep-05" ofType: @"mp3"]];
 	AudioServicesCreateSystemSoundID((__bridge CFURLRef)SoundURL2, &PlaySoundID2);
-	
 }
 
 void createQuestion(UILabel *x, UIButton *y, UIButton *z){
@@ -102,7 +101,7 @@ void createQuestion(UILabel *x, UIButton *y, UIButton *z){
 	}
 }
 
-NSString* createQuestion3(UILabel *x){
+NSString* findAnswer(UILabel *x){
 	NSString *a;
 	if (x.textColor == [UIColor greenColor]) {
 		a = @"green";
@@ -113,39 +112,32 @@ NSString* createQuestion3(UILabel *x){
 }
 
 - (IBAction)answerButton1pressed:(id)sender {
-	if ([answerButton1.titleLabel.text isEqualToString: createQuestion3(questionLabel)])  {
+	if ([answerButton1.titleLabel.text isEqualToString: findAnswer(questionLabel)])  {
 		score +=1;
 		createQuestion(questionLabel, answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID1);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID1);
 	}else{
 		score -=1;
 		createQuestion(questionLabel, answerButton1, answerButton2);
 		scoreDisplay.text =[NSString stringWithFormat:@"%d", score];
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID2);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID2);
 	}
 	
 }
 
 - (IBAction)answerButton2pressed:(id)sender {
-	if ([answerButton2.titleLabel.text isEqualToString: createQuestion3(questionLabel)]) {
+	if ([answerButton2.titleLabel.text isEqualToString: findAnswer(questionLabel)]) {
 		score +=1;
 		createQuestion(questionLabel, answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID1);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID1);
+		
 	}else{
 		score -=1;
 		createQuestion(questionLabel, answerButton1, answerButton2);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID2);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID2);
 	}
 	
 }
@@ -166,18 +158,10 @@ NSString* createQuestion3(UILabel *x){
     // Dispose of any resources that can be recreated.
 }
 
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-	if ([segue.identifier isEqualToString:@"won1"]) {
+	if ([segue.identifier isEqualToString:@"won2"]) {
 		ScoreViewController *svc = [segue destinationViewController];
 		svc.scoreCopy = score;
-		svc.setVolumeCopy3 = setVolumeCopy2;
-	} else if ([segue.identifier isEqualToString:@"gig1"]) {
-		HomeViewController *hvc = [segue destinationViewController];
-		hvc.setVolumeCopy1 = setVolumeCopy2;
 	}
 }
 

@@ -19,7 +19,7 @@
 
 @implementation Quiz3ViewController
 
-@synthesize answerButton1,answerButton2, answerButton3, answerButton4, scoreDisplay, nextArrow, secondsDisplay,correctValue2, score, highScore, questionLabel, setVolumeCopy2;
+@synthesize answerButton1,answerButton2, answerButton3, answerButton4, scoreDisplay, nextArrow, secondsDisplay,correctValue2, score, questionLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -99,16 +99,12 @@ NSString* createQuestion6(UILabel *x){
 
 - (IBAction)answerButton1pressed:(id)sender {
 	if ([createQuestion6(questionLabel) isEqualToString:@"red"])  {
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID1);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID1);
 		score +=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else{
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID2);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID2);
 		score -=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text =[NSString stringWithFormat:@"%d", score];
@@ -117,16 +113,13 @@ NSString* createQuestion6(UILabel *x){
 
 - (IBAction)answerButton2pressed:(id)sender {
 	if ([createQuestion6(questionLabel) isEqualToString:@"yellow"]) {
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID1);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID1);
+		
 		score +=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else{
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID2);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID2);
 		score -=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
@@ -135,16 +128,12 @@ NSString* createQuestion6(UILabel *x){
 
 - (IBAction)answerButton3pressed:(id)sender {
 	if ([createQuestion6(questionLabel) isEqualToString:@"blue"]) {
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID1);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID1);
 		score +=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else{
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID2);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID2);
 		score -=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
@@ -153,16 +142,12 @@ NSString* createQuestion6(UILabel *x){
 
 - (IBAction)answerButton4pressed:(id)sender {
 	if ([createQuestion6(questionLabel) isEqualToString:@"green"]) {
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID1);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID1);
 		score +=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
 	}else{
-		if(setVolumeCopy2 == 1){
-			AudioServicesPlaySystemSound(PlaySoundID2);
-		}
+		AudioServicesPlaySystemSound(PlaySoundID2);
 		score -=1;
 		createQuestion5(questionLabel);
 		scoreDisplay.text = [NSString stringWithFormat:@"%d", score];
@@ -193,12 +178,9 @@ NSString* createQuestion6(UILabel *x){
 	if ([segue.identifier isEqualToString:@"won3"]) {
 		Score3ViewController *svc = [segue destinationViewController];
 		svc.scoreCopy = score;
-		svc.setVolumeCopy3 = setVolumeCopy2;
-	}else if ([segue.identifier isEqualToString:@"gig3"]) {
-		HomeViewController *hvc = [segue destinationViewController];
-		hvc.setVolumeCopy1 = setVolumeCopy2;
 	}
 }
+
 
 
 @end

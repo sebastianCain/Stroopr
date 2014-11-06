@@ -11,6 +11,8 @@
 @interface Quiz2ViewController : UIViewController{
 	SystemSoundID PlaySoundID1;
 	SystemSoundID PlaySoundID2;
+	NSUserDefaults *defaults;
+	NSUserDefaults *sound;
 }
 
 @property (strong, nonatomic) IBOutlet UIImageView *questionImage1;
@@ -23,6 +25,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *secondsDisplay;
 @property (strong, nonatomic) NSString *correctValue2;
 @property (nonatomic) int score;
-@property (nonatomic) int highScore;
-@property (nonatomic) int setVolumeCopy2;
+
 @end

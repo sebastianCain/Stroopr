@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-               BuildableName = "InConGru.app"
+               BuildableName = "Stroopr.app"
                BlueprintName = "Stroopr"
                ReferencedContainer = "container:Stroopr.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AB92E0E1931067D00A3D96C"
-               BuildableName = "InConGruTests.xctest"
+               BuildableName = "StrooprTests.xctest"
                BlueprintName = "StrooprTests"
                ReferencedContainer = "container:Stroopr.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-            BuildableName = "InConGru.app"
+            BuildableName = "Stroopr.app"
             BlueprintName = "Stroopr"
             ReferencedContainer = "container:Stroopr.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-            BuildableName = "InConGru.app"
+            BuildableName = "Stroopr.app"
             BlueprintName = "Stroopr"
             ReferencedContainer = "container:Stroopr.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AB92DED1931067D00A3D96C"
-            BuildableName = "InConGru.app"
+            BuildableName = "Stroopr.app"
             BlueprintName = "Stroopr"
             ReferencedContainer = "container:Stroopr.xcodeproj">
          </BuildableReference>

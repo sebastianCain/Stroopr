@@ -15,7 +15,7 @@
 
 @implementation SettingsViewController
 
-@synthesize settingsLabel, volumeSwitch, aboutTextView, setVolume,aboutLabel;
+@synthesize settingsLabel, aboutTextView,aboutLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,16 +33,9 @@
 	aboutLabel.font = [UIFont fontWithName:@"Ubuntu-Light" size:24];
 	aboutTextView.editable = NO;
 	aboutTextView.font = [UIFont fontWithName:@"Ubuntu-Light" size:16];
-	//volumeSwitch.on = NO;
+
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-- (IBAction)volumeChanged:(id)sender {
-	if (volumeSwitch.on == YES) {
-		setVolume = 1;
-	}else if (volumeSwitch.on == NO){
-		setVolume = 0;
-	}
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,16 +43,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"settingsToHome"]) {
-		HomeViewController *hvc =  [segue destinationViewController];
-		hvc.setVolumeCopy1 = setVolume;
-	}
-	
-    // Pass the selected object to the new view controller.
-}*/
 
 
 @end

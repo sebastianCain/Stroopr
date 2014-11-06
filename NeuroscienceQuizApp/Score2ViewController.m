@@ -15,7 +15,7 @@
 
 @implementation Score2ViewController
 
-@synthesize goodJobLabel, yourScoreWasLabel, scoreLabel, scoreCopy, highScore, setVolumeCopy3;
+@synthesize goodJobLabel, yourScoreWasLabel, scoreLabel, scoreCopy;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,9 +30,7 @@
 {
     [super viewDidLoad];
     
-	if (scoreCopy > highScore) {
-		highScore = scoreCopy;
-	}
+
 	
 	goodJobLabel.font = [UIFont fontWithName:@"Ubuntu-Light" size:32];
 	yourScoreWasLabel.font = [UIFont fontWithName:@"Ubuntu-Light" size:24];
@@ -46,20 +44,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"score2ToHome"]) {
-		HomeViewController *hvc = [segue destinationViewController];
-		hvc.highscore2 = highScore;
-		hvc.setVolumeCopy1 = setVolumeCopy3;
-	}
-    // Pass the selected object to the new view controller.
 }
 
 @end

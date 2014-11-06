@@ -35,17 +35,17 @@
 		0A807A481932D08A00DCF242 /* Arrow-Expand-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A471932D08A00DCF242 /* Arrow-Expand-128 (1).png */; };
 		0A807A511934273800DCF242 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A807A501934273800DCF242 /* StoreKit.framework */; };
 		0A807A5319343AA700DCF242 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A807A5219343AA700DCF242 /* GameKit.framework */; };
-		0A807A5519343C9700DCF242 /* StroopedLogo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A5419343C9700DCF242 /* StroopedLogo (1).png */; };
 		0A807A981935107D00DCF242 /* Previous-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A971935107D00DCF242 /* Previous-128.png */; };
 		0A807A9A1935108E00DCF242 /* Navigation-Right-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A991935108E00DCF242 /* Navigation-Right-128.png */; };
 		0A807ADD19353C7D00DCF242 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A807ADC19353C7D00DCF242 /* CoreData.framework */; };
+		0A807ADF193965F000DCF242 /* StroopedLogoOfficial.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A807ADE193965F000DCF242 /* StroopedLogoOfficial.png */; };
 		0AB92DF21931067D00A3D96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF11931067D00A3D96C /* Foundation.framework */; };
 		0AB92DF41931067D00A3D96C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF31931067D00A3D96C /* CoreGraphics.framework */; };
 		0AB92DF61931067D00A3D96C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF51931067D00A3D96C /* UIKit.framework */; };
 		0AB92DFC1931067D00A3D96C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92DFA1931067D00A3D96C /* InfoPlist.strings */; };
 		0AB92DFE1931067D00A3D96C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92DFD1931067D00A3D96C /* main.m */; };
 		0AB92E021931067D00A3D96C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92E011931067D00A3D96C /* AppDelegate.m */; };
-		0AB92E051931067D00A3D96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E031931067D00A3D96C /* Main.storyboard */; };
+		0AB92E051931067D00A3D96C /* Main5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E031931067D00A3D96C /* Main5.storyboard */; };
 		0AB92E0A1931067D00A3D96C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB92E091931067D00A3D96C /* Images.xcassets */; };
 		0AB92E111931067D00A3D96C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92E101931067D00A3D96C /* XCTest.framework */; };
 		0AB92E121931067D00A3D96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB92DF11931067D00A3D96C /* Foundation.framework */; };
@@ -99,10 +99,10 @@
 		0A807A4D1934270B00DCF242 /* Stroopr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Stroopr.entitlements; sourceTree = "<group>"; };
 		0A807A501934273800DCF242 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0A807A5219343AA700DCF242 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		0A807A5419343C9700DCF242 /* StroopedLogo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StroopedLogo (1).png"; path = "../../../StroopedLogo (1).png"; sourceTree = "<group>"; };
 		0A807A971935107D00DCF242 /* Previous-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Previous-128.png"; sourceTree = "<group>"; };
 		0A807A991935108E00DCF242 /* Navigation-Right-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Navigation-Right-128.png"; sourceTree = "<group>"; };
 		0A807ADC19353C7D00DCF242 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A807ADE193965F000DCF242 /* StroopedLogoOfficial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StroopedLogoOfficial.png; sourceTree = "<group>"; };
 		0AB92DEE1931067D00A3D96C /* Stroopr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroopr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB92DF11931067D00A3D96C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AB92DF31931067D00A3D96C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,7 +113,7 @@
 		0AB92DFF1931067D00A3D96C /* Stroopr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stroopr-Prefix.pch"; sourceTree = "<group>"; };
 		0AB92E001931067D00A3D96C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AB92E011931067D00A3D96C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0AB92E041931067D00A3D96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AB92E041931067D00A3D96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main5.storyboard; sourceTree = "<group>"; };
 		0AB92E091931067D00A3D96C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0AB92E0F1931067D00A3D96C /* StrooprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrooprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB92E101931067D00A3D96C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -218,15 +218,15 @@
 				0A5587D3193143E900E9F71F /* Arrowhead-Right-01-128.png */,
 				0A5587DD1931613700E9F71F /* Arrowhead-Left-01-128 (1).png */,
 				0A0A5885193175DE003437E5 /* Volume-High-128.png */,
+				0A807ADE193965F000DCF242 /* StroopedLogoOfficial.png */,
 				0A0A58871931761F003437E5 /* Volume-Low-128.png */,
 				0A5587CD1931375B00E9F71F /* Ubuntu-Light.ttf */,
 				0A807A411932CCE300DCF242 /* Data-Split-01-128.png */,
 				0A807A451932D04600DCF242 /* Full-Screen-Expand-128 (1).png */,
-				0A807A5419343C9700DCF242 /* StroopedLogo (1).png */,
 				0A807A471932D08A00DCF242 /* Arrow-Expand-128 (1).png */,
 				0A807A971935107D00DCF242 /* Previous-128.png */,
 				0A807A991935108E00DCF242 /* Navigation-Right-128.png */,
-				0AB92E031931067D00A3D96C /* Main.storyboard */,
+				0AB92E031931067D00A3D96C /* Main5.storyboard */,
 				0AB92E261931077D00A3D96C /* HomeViewController.h */,
 				0AB92E271931077D00A3D96C /* HomeViewController.m */,
 				0A807A3C1932C80A00DCF242 /* ChooseStageViewController.h */,
@@ -373,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5587D4193143E900E9F71F /* Arrowhead-Right-01-128.png in Resources */,
+				0A807ADF193965F000DCF242 /* StroopedLogoOfficial.png in Resources */,
 				0A807A421932CCE300DCF242 /* Data-Split-01-128.png in Resources */,
 				0A807A461932D04600DCF242 /* Full-Screen-Expand-128 (1).png in Resources */,
 				0AB92E0A1931067D00A3D96C /* Images.xcassets in Resources */,
@@ -386,10 +387,9 @@
 				0A807A981935107D00DCF242 /* Previous-128.png in Resources */,
 				0AB92DFC1931067D00A3D96C /* InfoPlist.strings in Resources */,
 				0A5587D1193140DD00E9F71F /* home.png in Resources */,
-				0A807A5519343C9700DCF242 /* StroopedLogo (1).png in Resources */,
 				0A4D41B61931DB52007F2390 /* beep-05.mp3 in Resources */,
 				0A807A481932D08A00DCF242 /* Arrow-Expand-128 (1).png in Resources */,
-				0AB92E051931067D00A3D96C /* Main.storyboard in Resources */,
+				0AB92E051931067D00A3D96C /* Main5.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,12 +456,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		0AB92E031931067D00A3D96C /* Main.storyboard */ = {
+		0AB92E031931067D00A3D96C /* Main5.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0AB92E041931067D00A3D96C /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main5.storyboard;
 			sourceTree = "<group>";
 		};
 		0AB92E191931067D00A3D96C /* InfoPlist.strings */ = {

@@ -12,8 +12,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *goodJobLabel;
 @property (strong, nonatomic) IBOutlet UILabel *yourScoreWasLabel;
 @property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
-
 @property (nonatomic) int scoreCopy;
-@property (nonatomic) int highScore;
-@property (nonatomic) int setVolumeCopy3;
+
 @end
